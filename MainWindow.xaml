@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnHelloWorld" Content="Generate &quot;Hello World!&quot;" HorizontalAlignment="Left" Height="33" Margin="40,127,0,0" VerticalAlignment="Top" Width="168" Click="btnHelloWorld_Click"/>
+        <Label x:Name="lblHelloWorld" Content="" HorizontalAlignment="Left" Margin="253,127,0,0" VerticalAlignment="Top" Width="169" Background="#FFF38282"/>
+
     </Grid>
 </Window>
