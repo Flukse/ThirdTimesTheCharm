@@ -24,6 +24,12 @@ namespace ThirdTimesTheCharm
         {
             InitializeComponent();
         }
+        private int count = 0;
+        private void btnTeller_Click(object sender, RoutedEventArgs e)
+        {
+            count++;
+            lblTeller.Content = count.ToString();
+        }
 
         private void btnHelloWorld_Click(object sender, RoutedEventArgs e)
         {
